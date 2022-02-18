@@ -1,5 +1,5 @@
-import React from 'react';
-import styled from 'styled-components';
+import React from "react";
+import styled from "styled-components";
 
 const Item = styled.div`
     display: flex;
@@ -11,12 +11,12 @@ const Item = styled.div`
 `;
 
 
-export default ({type, from, value}) => {
+export default ({ type, from, value }) => {
     return(
         <Item>
-            <span className="text">{type}</span>
-            <span>{from}</span>
-            <span>{value}</span>
+            <span className = "text">{ type }</span>
+            <span>{ from }</span>
+            <span>{ value }</span>
         </Item>
     )
 };

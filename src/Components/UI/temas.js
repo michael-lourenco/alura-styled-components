@@ -5,13 +5,13 @@
     fundoEscuro,
     conteudoEscuro ,
     textoFundoEscuro
-} from './variaveis';
+} from "./variaveis";
 
 export const temaClaro = {
     body: fundoClaro,
     inside: conteudoClaro,
     text: textoFundoClaro,
-    filter: ''
+    filter: ""
 }
 
 export const temaEscuro = {

@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-
 import Titulo from "../Titulo";
 import Conta from "../Conta";
 import Extrato from "../Extrato";
@@ -26,7 +25,7 @@ export default () => {
   return (
     <Container>
       <Titulo>Olá Fulano!</Titulo>
-      <Conteudo className="conteudo">
+      <Conteudo className = "conteudo">
         <Conta />
         <Extrato />
       </Conteudo>
